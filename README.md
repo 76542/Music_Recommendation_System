@@ -60,8 +60,9 @@ music-recommender/
 3. **Open your browser at  http://127.0.0.1:5000/**
 
 ---
-##🧪 API Endpoints
+## 🧪 API Endpoints
 
 GET /api/songs → Returns a list of songs to rate.
 
 POST /api/recommend → Takes user ratings and returns recommendations.
+
