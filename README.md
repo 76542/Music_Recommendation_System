@@ -22,14 +22,14 @@ It allows users to **rate songs** and get recommendations using:
 ## 📂 Project Structure
 ```bash
 music-recommender/
-│── app.py # Flask app (backend + API routes)
-│── recommender.py # MusicRecommender class (ML logic)
-│── data.csv # Music dataset (Bollywood + Hollywood songs)
+│── app.py 
+│── recommender.py 
+│── data.csv 
 │── templates/
-│ └── index.html # Frontend UI for rating & recommendations
+│ └── index.html 
 │── static/
-│ └── style.css # Custom styles (optional)
-│── README.md # Project documentation
+│ └── style.css 
+│── README.md 
 ```
 ---
 
@@ -80,6 +80,7 @@ The dataset (data.csv) contains both Bollywood songs with features like:
 💃 Danceability, Energy, Valence
 
 👉 You can replace this with your own dataset for customized recommendations.
+
 
 
 
