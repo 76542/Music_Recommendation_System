@@ -21,7 +21,7 @@ It allows users to **rate songs** and get recommendations using:
 
 ## 📂 Project Structure
 ```bash
-music-recommender/
+music_recommendation_system/
 │── app.py 
 │── recommender.py 
 │── data.csv 
@@ -39,8 +39,7 @@ music-recommender/
 
    ```bash
    git clone https://github.com/yourusername/music-recommender.git
-   cd music-recommender
-
+   
    ```
 
 2. **Create virtual environment & install dependencies**
@@ -80,6 +79,7 @@ The dataset (data.csv) contains both Bollywood songs with features like:
 💃 Danceability, Energy, Valence
 
 👉 You can replace this with your own dataset for customized recommendations.
+
 
 
 
