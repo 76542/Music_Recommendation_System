@@ -13,7 +13,7 @@ It allows users to **rate songs** and get recommendations using:
 
 - 🎶 Rate songs (1–5 stars) through a simple UI.
 - 🎧 Get personalized music recommendations.
-- 🌐 Bollywood + Hollywood dataset (customizable via `data.csv`).
+- 🌐 Bollywood dataset (customizable via `data.csv`).
 - 🔄 Hybrid recommendation for better accuracy.
 - 🖥️ Flask backend with REST APIs (`/api/songs` & `/api/recommend`).
 
@@ -80,5 +80,6 @@ The dataset (data.csv) contains both Bollywood songs with features like:
 💃 Danceability, Energy, Valence
 
 👉 You can replace this with your own dataset for customized recommendations.
+
 
 
