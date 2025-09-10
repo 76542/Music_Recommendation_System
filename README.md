@@ -52,4 +52,16 @@ music-recommender/
 
    pip install -r requirements.txt
    ```
+3. **Run the app**
 
+   ```bash
+   python app.py
+   ```
+3. **Open your browser at  http://127.0.0.1:5000/**
+
+---
+##🧪 API Endpoints
+
+GET /api/songs → Returns a list of songs to rate.
+
+POST /api/recommend → Takes user ratings and returns recommendations.
