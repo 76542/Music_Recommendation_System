@@ -20,7 +20,7 @@ It allows users to **rate songs** and get recommendations using:
 ---
 
 ## 📂 Project Structure
-
+```bash
 music-recommender/
 │── app.py # Flask app (backend + API routes)
 │── recommender.py # MusicRecommender class (ML logic)
@@ -30,7 +30,7 @@ music-recommender/
 │── static/
 │ └── style.css # Custom styles (optional)
 │── README.md # Project documentation
-
+```
 ---
 
 ## ⚙️ Installation
@@ -52,3 +52,4 @@ music-recommender/
 
    pip install -r requirements.txt
    ```
+
