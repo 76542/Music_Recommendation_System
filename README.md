@@ -62,7 +62,21 @@ music-recommender/
 ---
 ## 🧪 API Endpoints
 
-GET /api/songs → Returns a list of songs to rate.
+```bash GET /api/songs``` → Returns a list of songs to rate.
 
-POST /api/recommend → Takes user ratings and returns recommendations.
+```bash POST /api/recommend``` → Takes user ratings and returns recommendations.
 
+--- 
+## 📊 Dataset
+
+The dataset (data.csv) contains both Bollywood songs with features like:
+
+🎵 Title, Artist, Genre
+
+📅 Year, Duration
+
+📈 Popularity
+
+💃 Danceability, Energy, Valence
+
+👉 You can replace this with your own dataset for customized recommendations.
