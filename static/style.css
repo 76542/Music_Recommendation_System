@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #555;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+.section {
+  margin: 30px 0;
+}
+
+.song-item,
+.recommendation-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fafafa;
+}
+
+.song-info {
+  flex-grow: 1;
+}
+
+.rating {
+  display: flex;
+  gap: 5px;
+}
+
+.star {
+  padding: 5px 10px;
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.star:hover {
+  background: #e0e0e0;
+}
+
+.rec-number {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+  margin-right: 15px;
+}
+
+select,
+button {
+  padding: 10px 15px;
+  margin: 10px 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+small {
+  color: #666;
+}
